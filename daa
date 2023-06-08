@@ -1,0 +1,425 @@
+{
+"con": true,
+"msg": "FuelIn are here",
+"result": [
+{
+"_id": "646e8f4513756f170a4a2ab1",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "001-Octane Ron(92)",
+"capacity": "14540",
+"opening": 10850,
+"tankNo": 1,
+"fuelIn": 0,
+"cash": 0,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 0,
+"nozzles": [
+"5",
+"8"
+],
+"createAt": "2023-05-25"
+},
+{
+"_id": "646e8f8213756f170a4a2ac2",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "004-Diesel",
+"capacity": "14540",
+"opening": 10850,
+"tankNo": 2,
+"fuelIn": 0,
+"cash": 235.399,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 10614.601,
+"nozzles": [
+"6",
+"7"
+],
+"createAt": "2023-05-25"
+},
+{
+"_id": "646e8f9613756f170a4a2ac7",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "004-Diesel",
+"capacity": "14540",
+"opening": 3950,
+"tankNo": 3,
+"fuelIn": 0,
+"cash": 1736.18,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 2213.8199999999997,
+"nozzles": [
+"2",
+"3"
+],
+"createAt": "2023-05-25"
+},
+{
+"_id": "646e900913756f170a4a2ad8",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "005-Premium Diesel",
+"capacity": "14540",
+"opening": 11580,
+"tankNo": 4,
+"fuelIn": 0,
+"cash": 1054.9470000000001,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 10525.053,
+"nozzles": [
+"1",
+"4"
+],
+"createAt": "2023-05-25"
+},
+{
+"_id": "646e906a13756f170a4a2add",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "004-Diesel",
+"capacity": "14540",
+"opening": 9650,
+"tankNo": 5,
+"fuelIn": 0,
+"cash": 1486.344,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 8163.656,
+"nozzles": [
+"10",
+"11"
+],
+"createAt": "2023-05-25"
+},
+{
+"_id": "646e90a013756f170a4a2b07",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "005-Premium Diesel",
+"capacity": "14540",
+"opening": 11000,
+"tankNo": 6,
+"fuelIn": 0,
+"cash": 1269.859,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 9730.141,
+"nozzles": [
+"9",
+"12"
+],
+"createAt": "2023-05-25"
+},
+{
+"_id": "646e90ea13756f170a4a2b0c",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "001-Octane Ron(92)",
+"capacity": "14540",
+"opening": 13000,
+"tankNo": 7,
+"fuelIn": 0,
+"cash": 141.53599999999992,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 12858.464,
+"nozzles": [
+"13",
+"16"
+],
+"createAt": "2023-05-25"
+},
+{
+"_id": "646e911613756f170a4a2b11",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "002-Octane Ron(95)",
+"capacity": "14540",
+"opening": 4150,
+"tankNo": 8,
+"fuelIn": 0,
+"cash": 36.419,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 4113.581,
+"nozzles": [
+"14",
+"15"
+],
+"createAt": "2023-05-25"
+}
+]
+}
+
+
+e
+Error: MongoServerError: E11000 duplicate key error collection: fuel-station.dailyreports index: date_1 dup key: { date: new Date(1685122806152) }
+    at addDailyReport (/home/ubuntu/oil-v4/src/service/dailyReport.service.ts:27:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[ERROR] 00:00:00 Error: MongoServerError: E11000 duplicate key error collection: fuel-station.dailyreports index: date_1 dup key: { date: new Date(1685122806152) }
+
+
+
+
+
+
+{
+"con": true,
+"msg": "FuelIn are here",
+"result": [
+{
+"_id": "647070679241e84da193e7bf",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "001-Octane Ron(92)",
+"capacity": "14540",
+"opening": 10850,
+"tankNo": 1,
+"fuelIn": 0,
+"cash": 0,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 0,
+"nozzles": [
+"5",
+"8"
+],
+"createAt": "2023-05-26"
+},
+{
+"_id": "647070c99241e84da193e7cf",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "004-Diesel",
+"capacity": "14540",
+"opening": 10620,
+"tankNo": 2,
+"fuelIn": 0,
+"cash": 10.128,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 0,
+"nozzles": [
+"6",
+"7"
+],
+"createAt": "2023-05-26"
+},
+{
+"_id": "647070eb9241e84da193e7d9",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "004-Diesel",
+"capacity": "14540",
+"opening": 2570,
+"tankNo": 3,
+"fuelIn": 0,
+"cash": 498,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 0,
+"nozzles": [
+"2",
+"3"
+],
+"createAt": "2023-05-26"
+},
+{
+"_id": "6470715d9241e84da193e7e2",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "005-Premium Diesel",
+"capacity": "14540",
+"opening": 10480,
+"tankNo": 4,
+"fuelIn": 0,
+"cash": 450.975,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 0,
+"nozzles": [
+"1",
+"4"
+],
+"createAt": "2023-05-26"
+},
+{
+"_id": "647071989241e84da193e7e7",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "004-Diesel",
+"capacity": "14540",
+"opening": 8160,
+"tankNo": 5,
+"fuelIn": 0,
+"cash": 334.18,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 0,
+"nozzles": [
+"10",
+"11"
+],
+"createAt": "2023-05-26"
+},
+{
+"_id": "647071ce9241e84da193e7ec",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "005-Premium Diesel",
+"capacity": "14540",
+"opening": 9730,
+"tankNo": 6,
+"fuelIn": 0,
+"cash": 200.002,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 0,
+"nozzles": [
+"9",
+"12"
+],
+"createAt": "2023-05-26"
+},
+{
+"_id": "647072349241e84da193e7f6",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "001-Octane Ron(92)",
+"capacity": "14540",
+"opening": 12850,
+"tankNo": 7,
+"fuelIn": 0,
+"cash": 63.137,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 0,
+"nozzles": [
+"13",
+"16"
+],
+"createAt": "2023-05-26"
+},
+{
+"_id": "647074c19241e84da193e832",
+"stationId": {
+"_id": "6464e9f1c45b82216ab1db6b",
+"name": "kyaw san (ks-027)",
+"location": "Kyawe Tat Sone Village , Thazi Township",
+"lienseNo": "2327",
+"__v": 0
+},
+"fuelType": "002-Octane Ron(95)",
+"capacity": "14540",
+"opening": 4110,
+"tankNo": 8,
+"fuelIn": 0,
+"cash": 30.416,
+"credit": 0,
+"test": 0,
+"testQ": 0,
+"balance": 0,
+"nozzles": [
+"14",
+"15"
+],
+"createAt": "2023-05-26"
+}
+]
+}
